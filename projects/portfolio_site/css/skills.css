@@ -2,12 +2,22 @@
     background: #e2e8f0;
     border-radius: 10px;
     overflow: hidden;
+    height: 12px;
 }
 .skill-progress {
     background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
     height: 100%;
     width: 0; /* Start at 0 for animation */
     transition: width 1s ease-out;
+}
+.skills-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+#skills h2{
+    text-align: center;
 }
 
 /* Add class 'animate' via JS when in viewport */
