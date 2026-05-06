@@ -17,7 +17,20 @@ header{
     display: flex;
     justify-content: space-between;
 }
-
+.logo{
+    color: #8b5cf6;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: var(--font-main);
+}
 nav a:hover{
     color: purple;
+}
+
+nav a{
+    color: var(--color-text);
+    font-family: var(--font-main);
+    font-weight: bold;
+    text-decoration: none;
+    
 }
