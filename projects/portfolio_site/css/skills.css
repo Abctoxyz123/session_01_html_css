@@ -19,6 +19,5 @@
 #skills h2{
     text-align: center;
 }
-
 /* Add class 'animate' via JS when in viewport */
 .skill-progress.animate { width: 95%; }
