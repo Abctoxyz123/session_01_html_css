@@ -1,0 +1,28 @@
+:root {
+    --color-primary: #6366f1;    /* Indigo */
+    --color-secondary: #8b5cf6;  /* Purple */
+    --color-dark: #1e293b;       /* Slate dark */
+    --color-light: #f8fafc;      /* Slate light */
+    --color-text: #334155;       /* Slate text */
+    --font-main: 'Segoe UI', sans-serif;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to top,var(--color-primary),var(--color-secondary));
+}
+
+
+.cta-button{
+    text-decoration: none;
+}
+
+.cta-button:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
