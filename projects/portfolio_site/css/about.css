@@ -1,0 +1,42 @@
+:root {
+    --color-primary: #6366f1;    /* Indigo */
+    --color-secondary: #8b5cf6;  /* Purple */
+    --color-dark: #1e293b;       /* Slate dark */
+    --color-light: #f8fafc;      /* Slate light */
+    --color-text: #334155;       /* Slate text */
+    --font-main: 'Segoe UI', sans-serif;
+}
+#about{
+    padding: 50px;
+}
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    align-items: center;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .about-grid { grid-template-columns: 1fr; }
+}
+
+.about-content p{
+    color: var(--color-text);
+}
+.about-content>h2{
+    font-weight: 700;
+    margin-bottom: 35px;
+    font-size: 30px;
+    color: #1e293b;
+}
+.lead{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    object-fit:cover;
+    border-radius: 50%;
+}
