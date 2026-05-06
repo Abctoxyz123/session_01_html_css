@@ -16,11 +16,13 @@ header{
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     display: flex;
     justify-content: space-between;
+    padding: 25px;
+    align-items: center;
 }
 .logo{
-    color: #8b5cf6;
+    color: #6366f1;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 33px;
     font-family: var(--font-main);
 }
 nav a:hover{
@@ -30,7 +32,12 @@ nav a:hover{
 nav a{
     color: var(--color-text);
     font-family: var(--font-main);
-    font-weight: bold;
+    font-weight:600;
     text-decoration: none;
-    
+    font-size: 25px;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
 }
